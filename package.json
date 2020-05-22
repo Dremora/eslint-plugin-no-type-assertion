@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-no-type-assertion",
+  "version": "1.0.0",
+  "description": "Disallow type assertions in TypeScript code",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Dremora/eslint-plugin-no-type-assertion",
+  "author": "Kirill Korolyov <kirill.korolyov@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "yarn": "^1.13.0"
+  },
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "prettier": "prettier --check \"{lib,test}/**/*.js\""
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.0.0",
+    "mocha": "^7.1.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  }
+}
