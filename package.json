@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Disallow type assertions in TypeScript code",
   "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
   "repository": "https://github.com/Dremora/eslint-plugin-no-type-assertion",
   "author": "Kirill Korolyov <kirill.korolyov@gmail.com>",
   "license": "MIT",
