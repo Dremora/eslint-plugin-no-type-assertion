@@ -46,3 +46,13 @@ Enable the rule:
   }
 }
 ```
+
+## Changelog
+
+### 1.0.1
+
+- Fix rule name
+
+### 1.0.0
+
+- Initial version

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-type-assertion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallow type assertions in TypeScript code",
   "main": "lib/index.js",
   "files": [
