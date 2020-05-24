@@ -13,16 +13,14 @@ const testsFor = (name, ...args) => ruleTester.run(name, rule, ...args);
 const asErrors = [{ messageId: "asAssertion" }];
 const angleBracketErrors = [{ messageId: "angleBracketAssertion" }];
 
-describe("no-type-assertion", () => {
-  testsFor("type assertions", {
-    valid: [
-      { code: "const foo = <const>42" },
-      { code: "const foo = 42 as const" },
-    ],
-    invalid: [
-      { code: "const foo = <number>42", errors: angleBracketErrors },
-      { code: "const foo = 42 as number", errors: asErrors },
-      { code: "const foo = 42 as any", errors: asErrors },
-    ],
-  });
+testsFor("no-type-assertion", {
+  valid: [
+    { code: "const foo = <const>42" },
+    { code: "const foo = 42 as const" },
+  ],
+  invalid: [
+    { code: "const foo = <number>42", errors: angleBracketErrors },
+    { code: "const foo = 42 as number", errors: asErrors },
+    { code: "const foo = 42 as any", errors: asErrors },
+  ],
 });
