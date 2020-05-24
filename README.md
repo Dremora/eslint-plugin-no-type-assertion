@@ -1,6 +1,6 @@
 # eslint-plugin-no-type-assertion
 
-Disallow type assertions in TypeScript code. The rule will forbid both `as` operator, as well as angle-bracketed syntax, unlessused for [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions).
+Disallow type assertions in TypeScript code. The rule will forbid both `as` operator and the angle-bracketed syntax, unless used for [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions).
 
 The following code becomes invalid:
 
