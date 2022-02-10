@@ -27,7 +27,7 @@ $ yarn add eslint-plugin-no-type-assertion -D
 
 ## Configuration
 
-In your ESLint configuratio, ensure you're using `@typescript-eslint/parser` as a parser and it's set up correctly:
+In your ESLint configuration, ensure you're using `@typescript-eslint/parser` as a parser and it's set up correctly:
 
 ```json
 {
