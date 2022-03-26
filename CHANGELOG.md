@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 - 2022-03-26
+
+- Allow asserting types as `unknown`
+
 ## 1.2.0 - 2022-03-26
 
 - Ban non-null assertion operator
