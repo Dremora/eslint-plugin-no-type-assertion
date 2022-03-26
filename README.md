@@ -7,8 +7,12 @@ The following code becomes invalid:
 ```typescript
 const foo: unknown = 42;
 
-const bar = <number>foo;
-const baz = foo as number;
+const notAString = <string>foo; // can't perform angle-bracketed type assertion
+const alsoNotAString = foo as string; // can't use `as` operator for type assertion
+
+const objectWithOptionalProperty: { a?: number } = {};
+
+const notANumber = objectWithOptionalProperty.a! / 2; // can't use non-null assertion operator
 ```
 
 ## Installation

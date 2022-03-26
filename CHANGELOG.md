@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - 2022-03-26
+
+- Ban non-null assertion operator
+
 ## 1.1.1 - 2021-11-28
 
 ### Added
